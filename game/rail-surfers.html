@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rail Surfers | Play Unblocked Online Free - Low's Adventures</title>
+  <meta name="description"
+    content="Play Rail Surfers online for free directly in your web browser with zero ads. Fast HTML5 unblocked running game on Chromebook, PC, and Mobile!">
+  <meta name="keywords"
+    content="rail-surfers, play rail surfers, running games, unblocked games, lows adventures, free online games">
+  <meta name="theme-color" content="#0a0e17">
+
+  <meta property="og:title" content="Rail Surfers - Play Free on Low's Adventures">
+  <meta property="og:description"
+    content="Play Rail Surfers online for free on Chromebook, PC, or Mobile. No ads, no downloads!">
+  <meta property="og:image" content="../images/rail-surfers.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/font-awesome.pro.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="../css/portal.css">
+</head>
+
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-banner">
+    <span class="badge">NOW PLAYING</span>
+    <span>⚡ You are playing Rail Surfers unblocked with zero ads!</span>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <button class="mobile-menu-btn" id="drawerToggle" aria-label="Open Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <a class="brand-logo" href="../index.html">
+          <img src="../images/lows 3.jpg" alt="Low's Adventures Logo">
+          <div class="brand-text">
+            <h1>LOW'S <span>ADVENTURES</span></h1>
+            <span class="brand-tag">UNBLOCKED GAMES</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <a href="../index.html" class="nav-btn">
+          <i class="fas fa-home"></i> Home
+        </a>
+        <a href="../category/running.html" class="nav-btn">
+          <i class="fas fa-running"></i> Running Games
+        </a>
+        <a href="../game/lows-adventures-3.html" class="nav-btn nav-btn-accent">
+          <i class="fas fa-gamepad"></i> Play Low's 3
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <div class="brand-text">
+        <h2 style="font-size: 1.1rem; color: #fff;">LOW'S <span>GAMES</span></h2>
+      </div>
+      <button class="drawer-close" id="drawerClose"><i class="fas fa-times"></i></button>
+    </div>
+    <ul class="drawer-nav">
+      <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="../category/car.html"><i class="fas fa-car"></i> Car & Racing</a></li>
+      <li><a href="../category/action.html"><i class="fas fa-bolt"></i> Action Games</a></li>
+      <li><a href="../category/adventure.html"><i class="fas fa-compass"></i> Adventure</a></li>
+      <li><a href="../category/shooting.html"><i class="fas fa-crosshairs"></i> Shooting</a></li>
+      <li><a href="../category/puzzle.html"><i class="fas fa-puzzle-piece"></i> Puzzle</a></li>
+      <li><a href="../category/running.html"><i class="fas fa-running"></i> Running</a></li>
+      <li><a href="../category/sports.html"><i class="fas fa-futbol"></i> Sports</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+      <a href="../index.html"><i class="fas fa-home"></i> Home</a>
+      <i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i>
+      <a href="../category/running.html">Running</a>
+      <i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i>
+      <span class="current">Rail Surfers</span>
+    </div>
+
+    <!-- PRIMARY GAME STAGE -->
+    <section class="stage-section" id="playerStage">
+      <div class="stage-card" id="stageCard">
+
+        <!-- Game Screen Iframe -->
+        <div class="game-screen-wrapper" id="gameScreenWrapper">
+          <iframe id="mainGameFrame" class="game-iframe" src="https://lowsadventure.github.io/gamefile-lows-adventures/rail-surfers/"
+            title="Rail Surfers Screen" allowfullscreen loading="eager" scrolling="no">
+          </iframe>
+        </div>
+
+        <!-- Player Controls -->
+        <div class="player-controls">
+          <div class="player-info">
+            <img class="player-thumb" src="../images/rail-surfers.png" alt="Rail Surfers"
+              onerror="this.src='../images/lows 3.jpg'">
+            <div class="player-titles">
+              <h1>Rail Surfers</h1>
+              <div class="player-meta">
+                <span class="rating"><i class="fas fa-star"></i> 4.8 (140+ Reviews)</span>
+                <span>•</span>
+                <span>Category: Running</span>
+                <span>•</span>
+                <span>Free HTML5</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="player-tools">
+            <button class="tool-btn" id="theaterToggle" title="Toggle Cinema Width">
+              <i class="fas fa-tv"></i> <span>Theater</span>
+            </button>
+            <button class="tool-btn" id="reloadGameBtn" title="Restart Game">
+              <i class="fas fa-redo"></i> <span>Reload</span>
+            </button>
+            <button class="tool-btn" id="likeBtn" title="Love this game">
+              <i class="far fa-heart" id="likeIcon"></i> <span id="likeCount">1,450</span>
+            </button>
+            <button class="tool-btn" id="shareBtn" title="Copy game link">
+              <i class="fas fa-share-alt"></i> <span>Share</span>
+            </button>
+            <button class="tool-btn tool-btn-fullscreen" id="fullscreenBtn" title="Play Fullscreen">
+              <i class="fas fa-expand"></i> <span>Fullscreen</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Controls Cheat Bar -->
+        <div class="controls-guide-bar">
+          <div class="keys-group">
+            <span style="font-weight: 700; color: #fff;">Controls:</span>
+            <span class="key-badge"><span class="kbd">W</span> <span class="kbd">A</span> <span class="kbd">S</span>
+              <span class="kbd">D</span> or <span class="kbd">▲</span> <span class="kbd">◄</span> <span
+                class="kbd">▼</span> <span class="kbd">►</span> Movement / Control</span>
+            <span class="key-badge"><span class="kbd">Space</span> / <span class="kbd">Mouse</span> Action</span>
+            <span class="key-badge"><span class="kbd">R</span> Restart</span>
+          </div>
+          <div>
+            <span>💡 Tip: Click Fullscreen for high-speed immersive gaming!</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Low's Adventures Trilogy Quick Play Banner -->
+    <section class="trilogy-banner">
+      <div class="trilogy-banner-left">
+        <img src="../images/lows 3.jpg" alt="Low's Adventures Trilogy">
+        <div>
+          <h3>Low's Adventures Official Series</h3>
+          <p>Have you beaten all 32 levels of Low's Adventures? Play the entire trilogy free!</p>
+        </div>
+      </div>
+      <div class="trilogy-links">
+        <a href="../game/lows-adventures-3.html" class="trilogy-link-btn"
+          style="background: var(--accent); border-color: var(--accent);"><i class="fas fa-crown"></i> Low's 3</a>
+        <a href="../game/lows-adventures-2.html" class="trilogy-link-btn"><i class="fas fa-star"></i> Low's 2</a>
+        <a href="../game/lows-adventures-1.html" class="trilogy-link-btn"><i class="fas fa-medal"></i> Low's 1</a>
+      </div>
+    </section>
+
+    <!-- Category Pills Bar -->
+    <div class="category-pills-bar">
+      <a href="../index.html" class="cat-pill">
+        <i class="fas fa-th-large"></i> All Games
+      </a>
+      <a href="../category/car.html" class="cat-pill">
+        <i class="fas fa-car"></i> Car & Racing
+      </a>
+      <a href="../category/action.html" class="cat-pill">
+        <i class="fas fa-bolt"></i> Action
+      </a>
+      <a href="../category/adventure.html" class="cat-pill">
+        <i class="fas fa-compass"></i> Adventure
+      </a>
+      <a href="../category/shooting.html" class="cat-pill">
+        <i class="fas fa-crosshairs"></i> Shooting
+      </a>
+      <a href="../category/running.html" class="cat-pill active">
+        <i class="fas fa-running"></i> Running
+      </a>
+      <a href="../category/puzzle.html" class="cat-pill">
+        <i class="fas fa-puzzle-piece"></i> Puzzle
+      </a>
+      <a href="../category/sports.html" class="cat-pill">
+        <i class="fas fa-futbol"></i> Sports
+      </a>
+    </div>
+
+    <!-- YOU MIGHT ALSO LIKE SECTION -->
+    <div class="section-head">
+      <h2 class="section-title">
+        <i class="fas fa-fire" style="color: var(--accent-warm);"></i> You Might Also Like
+      </h2>
+      <a href="../category/running.html" class="section-count" style="cursor: pointer;">View More Running Games <i class="fas fa-arrow-right"></i></a>
+    </div>
+
+    <div class="games-grid">
+
+      <a class="game-card" href="../game/vector.html" title="Play Vector">
+        <div class="game-thumb-box">
+          <span class="card-badge hot">🔥 HOT</span>
+          <img src="../images/vector.png" alt="Vector" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Vector</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.9</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/subway-surfers-hongkong.html" title="Play Subway Surfers Hongkong">
+        <div class="game-thumb-box">
+          <span class="card-badge top">TOP</span>
+          <img src="../images/subway-surfers-hongkong.png" alt="Subway Surfers Hongkong" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Subway Surfers Hongkong</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.9</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/obby-parkour-racing.html" title="Play Obby Parkour Racing">
+        <div class="game-thumb-box">
+          
+          <img src="../images/obby-parkour-racing.png" alt="Obby Parkour Racing" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Obby Parkour Racing</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.9</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/gswitch.html" title="Play G-Switch">
+        <div class="game-thumb-box">
+          
+          <img src="../images/gswitch.png" alt="G-Switch" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">G-Switch</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.9</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/two-tubes-3d.html" title="Play Two Tubes 3D">
+        <div class="game-thumb-box">
+          
+          <img src="../images/two-tubes-3d.png" alt="Two Tubes 3D" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Two Tubes 3D</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.7</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/cubito.html" title="Play Cubito">
+        <div class="game-thumb-box">
+          
+          <img src="../images/cubito.png" alt="Cubito" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Cubito</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.7</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/run-3.html" title="Play Run 3">
+        <div class="game-thumb-box">
+          
+          <img src="../images/run-3.png" alt="Run 3" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Run 3</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.9</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/snow-rider-3d-nostalgia.html" title="Play Snow Rider 3D Nostalgia">
+        <div class="game-thumb-box">
+          
+          <img src="../images/snow-rider-3d-nostalgia.png" alt="Snow Rider 3D Nostalgia" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Snow Rider 3D Nostalgia</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.8</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/crazy-runner-in-city.html" title="Play Crazy Runner in City">
+        <div class="game-thumb-box">
+          
+          <img src="../images/crazy-runner-in-city.png" alt="Crazy Runner in City" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Crazy Runner in City</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.7</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/glitch-dash.html" title="Play Glitch Dash">
+        <div class="game-thumb-box">
+          
+          <img src="../images/glitch-dash.png" alt="Glitch Dash" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Glitch Dash</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.9</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/healing-rush.html" title="Play Healing Rush">
+        <div class="game-thumb-box">
+          
+          <img src="../images/healing-rush.png" alt="Healing Rush" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Healing Rush</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.7</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="game-card" href="../game/snow-rider-3d-2.html" title="Play Snow Rider 3D 2">
+        <div class="game-thumb-box">
+          
+          <img src="../images/snow-rider-3d-2.png" alt="Snow Rider 3D 2" loading="lazy" onerror="this.src='../images/lows 3.jpg'">
+          <div class="card-play-overlay">
+            <div class="play-btn-circle"><i class="fas fa-play"></i></div>
+          </div>
+        </div>
+        <div class="game-meta-box">
+          <h3 class="game-title">Snow Rider 3D 2</h3>
+          <div class="game-footer-meta">
+            <span class="game-cat-tag">Running</span>
+            <span class="game-star-rating"><i class="fas fa-star"></i> 4.9</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- SEO / Content Guide Section -->
+    <article class="seo-section">
+      <div class="seo-content">
+        <h2>About Rail Surfers</h2>
+        <p>
+          Sprint, dodge, leap, and race at breakneck speeds in <strong>Rail Surfers</strong>, one of the most thrilling running games available online!
+        </p>
+        <p>
+          Play <strong>Rail Surfers</strong> unblocked on Low's Adventures. Enjoy fast-paced reflex runner action, buttery smooth HTML5 performance, and instant responsive controls directly in your web browser. Completely free without downloads or account setup.
+        </p>
+
+        <h3>Game Highlights & Features</h3>
+        <ul>
+          <li><strong>High-Speed Endless Action:</strong> Test your reaction time against intricate obstacles and sudden hazards.</li>
+          <li><strong>Play Anywhere:</strong> Optimized for school Chromebooks, desktop PCs, laptops, and mobile touch devices.</li>
+          <li><strong>Zero Installation:</strong> Play directly in any modern browser without Flash, plugins, or extensions.</li>
+          <li><strong>Clean Gameplay:</strong> Zero pop-ups or ads to break your concentration during high-speed sprints.</li>
+        </ul>
+
+        <h3>Frequently Asked Questions</h3>
+        <p><strong>Is Rail Surfers unblocked at school?</strong></p>
+        <p>Yes, all games hosted on Low's Adventures are unblocked and run over pure HTTPS protocols suitable for educational Chromebook networks.</p>
+
+        <p><strong>How do I save my progress?</strong></p>
+        <p>Your high scores and achievements are saved locally in your browser storage so you can resume whenever you return.</p>
+      </div>
+    </article>
+
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>LOW'S ADVENTURES</h3>
+          <p>
+            The premier web arcade destination for Low's Adventures and the world's most popular unblocked browser
+            games. Fast, safe, and always free.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>About & Trust</h4>
+          <ul class="footer-links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../editorial-policy.html">Editorial Policy</a></li>
+            <li><a href="../contact.html">Contact Us</a></li>
+            <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="../terms-of-service.html">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Low's Adventures</h4>
+          <ul class="footer-links">
+            <li><a href="../game/lows-adventures-3.html">Low's Adventures 3</a></li>
+            <li><a href="../game/lows-adventures-2.html">Low's Adventures 2</a></li>
+            <li><a href="../game/lows-adventures-1.html">Low's Adventures 1</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Top Categories</h4>
+          <ul class="footer-links">
+            <li><a href="../category/car.html">Car Games</a></li>
+            <li><a href="../category/action.html">Action Games</a></li>
+            <li><a href="../category/adventure.html">Adventure Games</a></li>
+            <li><a href="../category/puzzle.html">Puzzle Games</a></li>
+            <li><a href="../category/running.html">Running Games</a></li>
+            <li><a href="../category/shooting.html">Shooting Games</a></li>
+            <li><a href="../category/sports.html">Sports Games</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Low's Adventures. All rights reserved. Unblocked Games Portal.</p>
+        <p>Built for speed and fun • HTML5 Web Arcade</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script>
+    const theaterToggle = document.getElementById('theaterToggle');
+    const stageCard = document.getElementById('stageCard');
+    const fullscreenBtn = document.getElementById('fullscreenBtn');
+    const gameScreenWrapper = document.getElementById('gameScreenWrapper');
+    const mainGameFrame = document.getElementById('mainGameFrame');
+    const reloadGameBtn = document.getElementById('reloadGameBtn');
+    const likeBtn = document.getElementById('likeBtn');
+    const likeIcon = document.getElementById('likeIcon');
+    const likeCount = document.getElementById('likeCount');
+    const shareBtn = document.getElementById('shareBtn');
+    const backToTop = document.getElementById('backToTop');
+    const drawerToggle = document.getElementById('drawerToggle');
+    const mobileDrawer = document.getElementById('mobileDrawer');
+    const drawerClose = document.getElementById('drawerClose');
+    const drawerOverlay = document.getElementById('drawerOverlay');
+
+    // Theater Mode
+    theaterToggle.addEventListener('click', () => {
+      stageCard.classList.toggle('theater-mode');
+      const isTheater = stageCard.classList.contains('theater-mode');
+      theaterToggle.querySelector('span').textContent = isTheater ? 'Standard' : 'Theater';
+    });
+
+    // Fullscreen Mode
+    fullscreenBtn.addEventListener('click', () => {
+      const target = gameScreenWrapper;
+      if (!document.fullscreenElement) {
+        if (target.requestFullscreen) target.requestFullscreen();
+        else if (target.webkitRequestFullscreen) target.webkitRequestFullscreen();
+        else if (target.msRequestFullscreen) target.msRequestFullscreen();
+      } else {
+        if (document.exitFullscreen) document.exitFullscreen();
+      }
+    });
+
+    // Reload
+    reloadGameBtn.addEventListener('click', () => {
+      mainGameFrame.src = mainGameFrame.src;
+    });
+
+    // Like Button
+    let liked = false;
+    likeBtn.addEventListener('click', () => {
+      liked = !liked;
+      likeIcon.className = liked ? 'fas fa-heart' : 'far fa-heart';
+      likeBtn.style.color = liked ? '#ef4444' : '';
+      let num = parseInt(likeCount.textContent.replace(/,/g, ''), 10);
+      likeCount.textContent = (liked ? num + 1 : num - 1).toLocaleString();
+    });
+
+    // Share Button
+    shareBtn.addEventListener('click', async () => {
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: 'Rail Surfers - Low\'s Adventures',
+            url: window.location.href
+          });
+        } catch (err) {}
+      } else {
+        navigator.clipboard.writeText(window.location.href);
+        const span = shareBtn.querySelector('span');
+        const oldText = span.textContent;
+        span.textContent = 'Copied!';
+        setTimeout(() => { span.textContent = oldText; }, 2000);
+      }
+    });
+
+    // Back to top
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) backToTop.classList.add('show');
+      else backToTop.classList.remove('show');
+    });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Drawer Navigation
+    drawerToggle.addEventListener('click', () => {
+      mobileDrawer.classList.add('open');
+      drawerOverlay.classList.add('open');
+    });
+    function closeDrawer() {
+      mobileDrawer.classList.remove('open');
+      drawerOverlay.classList.remove('open');
+    }
+    drawerClose.addEventListener('click', closeDrawer);
+    drawerOverlay.addEventListener('click', closeDrawer);
+  </script>
+</body>
+
+</html>
